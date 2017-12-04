@@ -1,6 +1,42 @@
-﻿Build started 4/12/2017 11:37:51 PM.
+﻿Build started 5/12/2017 12:15:16 AM.
      1>Project "G:\dev\ManIntApp\ManIntApp\ManIntApp.vcxproj" on node 2 (Build target(s)).
-     1>ResourceCompile:
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ManIntApp.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ManIntApp.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt EquipmentPropertiesTree.cpp ManIntApp.cpp ManIntDlg.cpp ODBCConnection.cpp StateManager.cpp StructureFactories.cpp
+         StructureFactories.cpp
+         StateManager.cpp
+     1>g:\dev\manintapp\manintapp\statemanager.cpp(50): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>g:\dev\manintapp\manintapp\statemanager.cpp(62): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>g:\dev\manintapp\manintapp\statemanager.cpp(100): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\dev\manintapp\manintapp\statemanager.cpp(114): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>g:\dev\manintapp\manintapp\statemanager.cpp(123): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\dev\manintapp\manintapp\statemanager.cpp(138): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+         ODBCConnection.cpp
+         ManIntDlg.cpp
+     1>g:\dev\manintapp\manintapp\manintdlg.cpp(197): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\dev\manintapp\manintapp\manintdlg.cpp(207): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\dev\manintapp\manintapp\manintdlg.cpp(224): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\dev\manintapp\manintapp\manintdlg.cpp(239): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(575) : see declaration of 'wcstombs'
+     1>g:\dev\manintapp\manintapp\manintdlg.cpp(259): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>g:\dev\manintapp\manintapp\manintdlg.cpp(275): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\dev\manintapp\manintapp\manintdlg.cpp(293): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(575) : see declaration of 'wcstombs'
+     1>g:\dev\manintapp\manintapp\manintdlg.cpp(295): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\dev\manintapp\manintapp\manintdlg.cpp(315): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(575) : see declaration of 'wcstombs'
+     1>g:\dev\manintapp\manintapp\manintdlg.cpp(320): warning C4018: '<' : signed/unsigned mismatch
+         ManIntApp.cpp
+         EquipmentPropertiesTree.cpp
+     1>g:\dev\manintapp\manintapp\equipmentpropertiestree.cpp(80): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       ResourceCompile:
          C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0409" /IDebug\ /nologo /fo"Debug\ManIntApp.res" ManIntApp.rc 
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\dev\ManIntApp\Debug\ManIntApp.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"G:\dev\ManIntApp\Debug\ManIntApp.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\dev\ManIntApp\Debug\ManIntApp.lib" /MACHINE:X86 Debug\ManIntApp.res
@@ -16,4 +52,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.27
+Time Elapsed 00:00:04.51
